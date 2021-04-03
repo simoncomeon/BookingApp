@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:color="@color/cardview_light_background"
+    tools:targetApi="lollipop">
+    <item>
+        <shape android:shape="rectangle">
+            <stroke
+                android:width="0.5dp"
+                android:color="#258C09" />
+            <corners android:radius="23dp" />
+        </shape>
+    </item>
+
+    <item android:id="@+id/item">
+        <shape android:shape="rectangle">
+            <corners android:radius="23dp" />
+            <solid android:color="@color/white" />
+        </shape>
+    </item>
+</ripple>
